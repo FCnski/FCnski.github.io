@@ -1,4 +1,3 @@
-@media screen and (max-width: 681px){
 
 {
   box-sizing: border-box;
@@ -163,5 +162,4 @@ h3 {
    -moz-border-radius: 5px;
    border-radius: 5px;
    text-decoration: none;
-}
 }
