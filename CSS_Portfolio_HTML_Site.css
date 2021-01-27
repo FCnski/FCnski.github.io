@@ -80,7 +80,7 @@ h3 {
   bottom: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 300px) {
 .icon 
 {
   position: relative;
@@ -88,7 +88,7 @@ h3 {
 }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 300px) {
 .icon_home {
   position: relative;
   left: 50px;
