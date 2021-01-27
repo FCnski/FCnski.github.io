@@ -23,13 +23,14 @@ h1 {
   border-radius: auto;
   border-color: white;
   word-break: break-all;
-  border-top: 4px solid orange;
+  border-top: 4px solid #336633;
+  background-color: #CCFFCC;
 }
 
 h3 {
   border-radius: auto;
   border-color: white;
-  border-top: 4px solid orange;
+  border-top: 4px solid #336633;
   border-style: solid;
   border-width: auto;
   margin: auto;
@@ -60,11 +61,8 @@ h3 {
 
 /*Navigation link customization*/
 .navi {
-  border-right-color: orange;
-  border-bottom-color: orange;
-  border-left-color: cyan;
-  border-top-color: cyan;
   font-size: 20px;
+  background-color: transparent;
 }
 
 .navi:visited {
