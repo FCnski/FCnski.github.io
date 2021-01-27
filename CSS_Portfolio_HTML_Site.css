@@ -1,6 +1,9 @@
+@media screen and (max-width: 481px){
+
 {
   box-sizing: border-box;
 }
+
 
 body {
   background-color: white;
@@ -160,4 +163,5 @@ h3 {
    -moz-border-radius: 5px;
    border-radius: 5px;
    text-decoration: none;
+}
 }
