@@ -80,16 +80,20 @@ h3 {
   bottom: center;
 }
 
+@media screen and (max-width: 900px) {
 .icon 
 {
   position: relative;
   right: 17px;
 }
+}
 
+@media screen and (max-width: 900px) {
 .icon_home {
   position: relative;
   left: 50px;
   top: 10px;
+}
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
