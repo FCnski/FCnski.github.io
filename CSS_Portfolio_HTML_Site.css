@@ -20,14 +20,14 @@ body {
 @media screen and (max-width: 100px;) {}
 h1 {
   font-size: 50px;
-  border-radius: 10px;
+  border-radius: auto;
   border-color: white;
   word-break: break-all;
   border-top: 4px solid orange;
 }
 
 h3 {
-  border-radius: 10px;
+  border-radius: auto;
   border-color: white;
   border-top: 4px solid orange;
   border-style: solid;
