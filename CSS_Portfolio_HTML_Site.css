@@ -43,7 +43,7 @@ h3 {
 /* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
-  padding: 20px;
+  padding: 15px;
 }
 
 /* Create four equal columns that floats next to each other */
