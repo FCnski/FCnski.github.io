@@ -6,9 +6,9 @@ function ShowMore()
 
 }
 
-function ClickWolf() 
+function ClickChange() 
 {
-	var Image_Id = document.getElementById('Wolf');
+	var Image_Id = document.getElementById('imgs');
 	if (Image_Id.src.match("Dark0.gif"))
 	{	
 		Image_Id.src = "Dark1.gif";
