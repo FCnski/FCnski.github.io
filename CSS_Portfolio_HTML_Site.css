@@ -13,8 +13,6 @@ body {
   max-width: 1000px;
   margin: auto;
   background-color: white;
-  border-style: groove;
-  border-color: cyan;
 }
 
 @media screen and (max-width: 100px;) {}
@@ -59,6 +57,22 @@ h3 {
 
 }
 
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
 
 .navi {
   font-size: 20px;
@@ -100,6 +114,29 @@ h3 {
   }
 }
 
+.chip {
+  display: inline-block;
+  padding: 0 25px;
+  margin: 10px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #AFEEEE;
+}
+
+.chip:hover {
+  background: #F0F8FF;
+}
+
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
 
 @media screen and (max-width: 600px) {
   .column {
@@ -119,16 +156,11 @@ h3 {
    border-radius: 5px;
    color: #FFFFFF;
    font-family: Times New Roman;
-   font-size: 13px;
+   font-size: 15px;
    font-weight: 100;
-   padding: 2px;
-   -webkit-box-shadow: 1px 1px 5px 0 #000000;
-   -moz-box-shadow: 1px 1px 5px 0 #000000;
-   box-shadow: 1px 1px 5px 0 #000000;
-   text-shadow: 1px 1px 5px #FFFFFF;
-   border: solid #FFFFFF 1px;
+   padding: 1px;
    text-decoration: none;
-   display: inline-block;
+   display: inline;
    cursor: pointer;
    text-align: center;
    position: relative;
@@ -137,7 +169,6 @@ h3 {
 }
 
 .BUTTON_RFS:hover {
-   border: solid #FFFFFF 1px;
    background: #CADBF5;
    background-image: -webkit-linear-gradient(top, #CADBF5, #577393);
    background-image: -moz-linear-gradient(top, #CADBF5, #577393);
